@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
 			if(selectedClass.value === "all"){
 				hideClass[i].classList.remove("displayNone");
 			}
-			else if(selectedClass.value === selectedClass.value){
+			else {
 				if(hideClass[i].classList.contains(selectedClass.value)){
 					hideClass[i].classList.remove("displayNone");
 				}
